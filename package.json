@@ -1,0 +1,19 @@
+{
+  "name": "vue-swipe-me",
+  "version": "0.0.1",
+  "description": "Vue swiper component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofftiquez/vue-swipe-me.git"
+  },
+  "author": "Jofferson R Tiquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jofftiquez/vue-swipe-me/issues"
+  },
+  "homepage": "https://github.com/jofftiquez/vue-swipe-me#readme"
+}
