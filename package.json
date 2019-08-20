@@ -2,9 +2,10 @@
   "name": "vue-swipe-me",
   "version": "0.0.1",
   "description": "Vue swiper component",
-  "main": "index.js",
+  "main": "dist",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && bili"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/jofftiquez/vue-swipe-me/issues"
   },
-  "homepage": "https://github.com/jofftiquez/vue-swipe-me#readme"
+  "homepage": "https://github.com/jofftiquez/vue-swipe-me#readme",
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rimraf": "^3.0.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  }
 }
