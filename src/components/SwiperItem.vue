@@ -1,8 +1,18 @@
 <template>
   <div class="swipe-me-swipe-container">
-    <h1>Foo</h1>
+    <h1>{{item}}</h1>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    item: {
+      type: Object
+    }
+  }  
+}
+</script>
 
 <style scoped>
 h1 {
